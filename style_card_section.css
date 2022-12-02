@@ -1,0 +1,38 @@
+#cards{
+   
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 525px auto;
+}
+#cards fieldset{
+    border: 1.5px solid rgb(255, 179, 37);
+    height: 325px ;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px -10px 50px rgba(0, 0, 0,0.4);
+}
+#cards legend{
+    background-color: rgb(255, 143, 52);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    padding:8px 30px 8px 30px;
+    border: 1px solid rgb(255, 179, 37);
+    border-radius: 4px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+#Happenings_img img{
+    border: 1px solid black;
+    width: 500px;
+    
+}
+#asees_kaur img{
+    width: 500px;
+    height:280px;
+}

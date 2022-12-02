@@ -1,0 +1,54 @@
+#heading2_placement {
+    font-weight: border;
+    font-size: 40px;
+    margin-left: 150px;
+    border-bottom: 1px solid black;
+}
+
+#cards3 {
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 370px auto;
+}
+
+#cards3 #card1 {
+    border: 1.5px solid rgb(255, 179, 37);
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 10px -10px 50px rgba(0, 0, 0, 0.4);
+}
+
+#cards3 #card2 {
+    border: 1.5px solid rgb(255, 179, 37);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px -10px 50px rgba(0, 0, 0, 0.4);
+}
+
+#cards3 legend {
+    background-color: rgb(255, 143, 52);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 8px 30px 8px 30px;
+    border: 1px solid rgb(255, 179, 37);
+    border-radius: 4px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+#cards3 #card1 img{
+    height:200px;
+    width: 350px;
+}
+#cards3 #card2 img{
+    margin: 0%;
+    height: 200px;
+    width: 650px;
+}

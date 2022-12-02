@@ -1,0 +1,70 @@
+#cards2{
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 725px auto;
+}
+#cards2 #card1{
+    border: 1.5px solid rgb(255, 179, 37);
+    height: 400px ;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 10px -10px 50px rgba(0, 0, 0,0.4);
+}
+#cards2 #card2{
+    border: 1.5px solid rgb(255, 179, 37);
+    height: 400px ;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px -10px 50px rgba(0, 0, 0,0.4);
+}
+#cards2 legend{
+    background-color: rgb(255, 143, 52);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    padding:8px 30px 8px 30px;
+    border: 1px solid rgb(255, 179, 37);
+    border-radius: 4px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+#cards2 img{
+    height: 320px;
+    width: 650px;
+    margin: 0; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#card2 img{
+    height: 320px;
+    width: 290px;
+}
+#card2 section{
+    background-color: rgb(41,121,191);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    align-content: center;
+    margin-left: 70%;
+    padding: 3px;
+    padding-left: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#cards2 #attendence{
+    display: grid;
+    column-gap: 60%;
+    grid-template-columns: auto auto;
+
+}
+#cards2 span{
+    font-size: 20px;
+    color: rgb(41,121,191);
+}
+
